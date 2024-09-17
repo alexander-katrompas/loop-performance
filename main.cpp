@@ -21,8 +21,8 @@ int main() {
         when count is known, us a for loop.
     *****************************************************************/
     count = 0;
-    int strn = str.size();
     start_time = clock();
+    int strn = str.size();
     for(i=0; i<ITER; i++){
         for (j=0; j<strn; j++) {
             if (isalpha(str[j])) {
